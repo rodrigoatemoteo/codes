@@ -1,0 +1,23 @@
+.img-corpo {width:5em;
+			height:auto;
+}
+
+header {margin-bottom:0;}
+
+nav {
+	 margin-bottom:15px;
+	 background-color: #aaf;
+}
+
+div ul li {display:inline;
+       list-style: none;
+       margin:0 10px 10px 0;
+       padding: 0 10px 10px 10px;
+}
+
+div ul li:first-child {margin-left:20px;}
+
+li a {text-decoration: none;
+	  color:#fff;	
+      text-align:center; 
+}
