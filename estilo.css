@@ -2,20 +2,29 @@
 			height:auto;
 }
 
-header {margin-bottom:0;}
+.alinhamento {margin:0 10px 10px 0;
+           padding: 0 10px 10px 10px;
+ }
+
+.align-left {margin-right: 10px;}
+
+.align-right {margin-left:10px;}
+
+header {margin:0;}
 
 nav {
-	 margin-bottom:15px;
+	 margin:0 0 15px 0;
 	 background-color: #aaf;
 }
 
-div ul li {display:inline;
-       list-style: none;
-       margin:0 10px 10px 0;
-       padding: 0 10px 10px 10px;
+nav div {margin:0;
+		 padding:0;
 }
 
-div ul li:first-child {margin-left:20px;}
+div ul li {display:inline;
+       	   list-style: none;
+       	   margin-top:10px;
+}
 
 li a {text-decoration: none;
 	  color:#fff;	
