@@ -17,8 +17,11 @@ nav {
 	 background-color: #aaf;
 }
 
+<<<<<<< HEAD
 nav div {margin:0;
 		 padding:0;
+=======
+>>>>>>> trainning
 }
 
 div ul li {display:inline;
@@ -29,4 +32,11 @@ div ul li {display:inline;
 li a {text-decoration: none;
 	  color:#fff;	
       text-align:center; 
+}
+
+aside {padding-top:25em;}
+
+aside a {
+		 padding:0.5em;
+		 margin:0 0 10em 0;
 }
