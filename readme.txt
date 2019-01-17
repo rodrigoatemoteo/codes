@@ -1,0 +1,1 @@
+This only a test of my studies about Git and GitHub.

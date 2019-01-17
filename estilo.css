@@ -2,13 +2,14 @@
 			height:auto;
 }
 
-.alinhamento {margin:0 10px 10px 0;
-           padding: 0 10px 10px 10px;
+.alinhamento {/*margin:0 10px 10px 0;
+           padding: 0 10px 10px 10px;*/
+           text-align: center;
  }
 
-.align-left {margin-right: 10px;}
+/*.align-left {margin-right: 10px;}
 
-.align-right {margin-left:10px;}
+.align-right {margin-left:10px;}*/
 
 header {margin:0;}
 
@@ -20,6 +21,7 @@ nav {
 <<<<<<< HEAD
 nav div {margin:0;
 		 padding:0;
+		 border:1px solid #000;
 =======
 >>>>>>> trainning
 }
@@ -27,11 +29,13 @@ nav div {margin:0;
 div ul li {display:inline;
        	   list-style: none;
        	   margin-top:10px;
+       	   border:1px solid #000;
 }
 
 li a {text-decoration: none;
 	  color:#fff;	
-      text-align:center; 
+      text-align:center;
+      border:1px solid #000; 
 }
 
 aside {padding-top:25em;}
