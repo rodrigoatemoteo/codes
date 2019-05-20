@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8">
+			<meta name="keywords" content="HTML5,CSS3,JavaScript,WEB,Web Developer,Logistica,Calculadora,Frete">
+			<meta name="description" content="Esta página é uma amostra de meu portfólio">
+			<meta name="author" content="Rodrigo de Araújo Temóteo">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+			<title>Exemplo para o GIT - Calculadora de Frete</title>
+			<link rel="stylesheet" type="text/css" href="../estilos/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="../estilos/estilo-calc.css">
+			<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">		
+		</head>
+		<body class="container-fluid" onload="zerar()">
+
+			<div class="row">
+
+				<header class="col-xl-6 bg-light text-center justify-content-center p-3">
+					<h1><i class="fab fa-sourcetree mr-3 text-danger"></i>JIT Logistica</h1>
+				</header>
+				<nav class="col-xl-6 bg-light justify-content-center text-center p-3">
+					<ul class="col-xl-12">
+						<li class="borda-inferior"><a href="#"><i class="fas fa-truck mr-2"></i>Página Inicial</a></li>
+						<li class="borda-inferior"><a href="#"><i class="fas fa-truck-loading mr-2"></i>Serviços</a></li>
+						<li><a href="#"><i class="fas fa-envelope-open-text mr-2"></i>Contato</a></li>
+					</ul>
+				</nav>
+				<article class="col-xl-6 bg-light justify-content-center p-3">
+					<h2 class="text-center b u text-dark">Calcule aqui o frete para sua carga</h2>
+					<form class="mx-auto d-block text-center">
+						<label>Origem:</label><br>
+						<select class="mb-3" id="origem">
+							<option value="São Paulo" selected>São Paulo</option>
+							<option value="Campinas">Campinas</option>
+							<option value="Rio de Janeiro">Rio de Janeiro</option>
+						</select><br>
+						<label>Destino:</label><br>
+						<select class="mb-3" id="destino">
+							<option value="São Paulo" selected>São Paulo</option>
+							<option value="Campinas">Campinas</option>
+							<option value="Rio de Janeiro">Rio de Janeiro</option>
+						</select><br>
+						<label class="mb-3">Valor do Frete:</label>
+						<input type="text" id="res" name="resultado" disabled="true">
+						<a href="#" class="btn btn-secondary" onclick="calcular()">Calcular</a>
+					</form>
+				</article>
+				<footer class="col-xl-12 mx-auto d-block bg-dark rounded p-2 text-center">
+					<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@frankiefoto?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from frank mckenna"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">frank mckenna</span></a>
+				</footer>
+
+			</div>
+			
+			<script type="text/javascript" scr="../scripts/jquery.min.js"></script>
+			<script type="text/javascript" scr="../scripts/popper.min.js"></script>
+			<script type="text/javascript" scr="../scripts/bootstrap.min.js"></script>
+			<script type="text/javascript" src="../scripts/calculadora.js"></script>
+		</body>
+	</html>

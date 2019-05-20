@@ -1,0 +1,59 @@
+body{background-image: url('../imagens/back-image2.jpg');
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 font-family: "Acme","Arial","Tahoma";
+}
+header{margin-left:25vw;
+	   margin-top:5vh;
+	   margin-right:25vw;
+	   width:50vw;
+	   height:auto;	
+	   border-top-left-radius: 30px;
+	   border-top-right-radius: 30px;
+	   box-shadow:0 10px 20px #000;
+}
+header i{text-shadow: 2px 2px 3px #000}
+nav{margin-left:25vw;
+	margin-right:25vw;
+	width:50vw;
+	height:auto;
+	box-shadow:0 10px 20px #000;
+}
+.borda-inferior{border-bottom:1px solid #ababab;}
+nav ul{margin:0;}
+nav ul li{list-style: none;
+		  padding:0.3em;
+		  margin:0;
+}
+nav ul li a{color:#000;
+			margin:0;
+}
+nav ul li a:hover{text-decoration: none;
+				  color:#787878;
+				  font-weight:bolder;
+}
+nav ul li i:hover{color:#787878;}
+article{margin-left:25vw;
+		margin-right:25vw;
+		width:50vw;
+	    height:auto;
+	    border-bottom-left-radius:30px !important;
+	    border-bottom-right-radius:30px !important;
+	    box-shadow:0 10px 20px #000;
+}
+form input{color:#000;}
+footer{
+	margin-top: 4.3em;
+}
+@media screen and (max-width: 400px) {
+				nav ul li a{font-size: 7vw;
+							margin-left:3.5vw;
+				}
+				header h1{font-size: 10.3vw;}
+				article h2{font-size:7vw;}
+				form label{font-size:7vw;}
+				form select{width:35.8vw;}
+				form input{width:35.8vw;} 
+			}
